@@ -13,8 +13,17 @@ function getBhagavadGita() {
 
     // TODO: create additional text node and HTML element for response.author 
 
+    var quoteAuthor = document.createElement("h3");
+    // console.log(response);
+    var nodeTwo = document.createTextNode(response.author);
+    quoteAuthor.appendChild(nodeTwo);
+    
+
     var element = document.getElementById("main-section");
     element.appendChild(quoteHeader);
+    element.appendChild(quoteAuthor);
     // console.log(response.en);
+
+
   });
 }

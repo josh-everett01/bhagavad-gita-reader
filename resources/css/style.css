@@ -1,12 +1,25 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #d2691e;
-}
-/* 
-header {
   align-items: center;
-} */
+}
+
+#main-img {
+  width: 500px;
+  height: 500px;
+  padding-bottom: 15px;
+  }
+
+  #main-section {
+    text-align: center;
+    padding-bottom: 15px;
+    /* width: 500px;
+  height: 500px; */
+  }
 
 button {
+  position: relative;
   background-color: #800000;
   color: white;
 }
